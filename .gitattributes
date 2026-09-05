@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep GitHub language statistics focused on actual source code.
+Sources/**/*.swift linguist-language=Swift
+scripts/**/*.swift linguist-language=Swift
+build.sh linguist-language=Shell
+.build/** linguist-generated=true
+build/** linguist-generated=true

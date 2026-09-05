@@ -1,86 +1,82 @@
 <div align="center">
 
-<img src="baticon.png" alt="BatMediaPlayer logosu" width="128" />
+<img src="baticon.png" alt="BatMediaPlayer logo" width="128" />
 
 # BatMediaPlayer
 
-**MacOS için modern, sade ve güçlü bir medya oynatıcı.**
+**A modern, lightweight media player for macOS.**
 
-Ses ve video dosyalarınızı tek bir oynatma listesinde yönetin; albüm kapaklarını, metadata bilgilerini ve oynatma kontrollerini şık bir arayüzde kullanın.
+Play your music and videos in a focused listening room with album artwork, metadata, playlists, queue management, and a polished dark interface.
 
 </div>
 
-## Özellikler
+## Features
 
-- Ses ve video dosyalarını oynatma
-- Albüm kapağı ve metadata gösterimi
-- Oynatma listesi, kuyruk ve son kullanılan dosyalar
-- Arama, sürükle-bırak ve dosya menüsü desteği
-- Oynatma hızı ve ses seviyesi kontrolü
-- Tekrar, karıştırma ve A/B döngü noktası
-- Altyazı ve ses kanalı seçimi
-- Picture-in-Picture video oynatma
-- Mini Player modu
-- Güncel macOS görünümüne uygun koyu arayüz
-- Türkçe ve İngilizce yerelleştirme
+- Audio and video playback
+- Album artwork and metadata display
+- Playlist, queue, and recently played files
+- Search, drag and drop, and file association support
+- Playback speed and volume controls
+- Repeat, shuffle, and A/B loop points
+- Subtitle and audio track selection
+- Picture-in-Picture video playback
+- Floating Mini Player mode
+- Dark macOS-native interface
+- English and Turkish localization
 
-## Gereksinimler
+## Requirements
 
-- macOS 14 veya üzeri
-- Xcode Command Line Tools veya Xcode
-- Apple Silicon Mac için hazırlanmıştır
+- macOS 14 or later
+- Xcode or Xcode Command Line Tools
+- Apple Silicon Mac
 
-## Çalıştırma
+## Run locally
 
-Projeyi klonladıktan sonra proje klasöründe:
+From the project directory:
 
 ```bash
 swift run
 ```
 
-## Uygulama paketi oluşturma
+## Build the app
 
-Kurulabilir `.app` paketi oluşturmak için:
+Create a signed `.app` bundle with:
 
 ```bash
 ./build.sh
 ```
 
-Oluşturulan uygulama:
+The application will be created at `build/BatMediaPlayer.app`.
 
-```text
-build/BatMediaPlayer.app
-```
-
-Uygulamayı `/Applications` klasörüne kopyalamak için:
+To copy it to Applications:
 
 ```bash
 cp -R "build/BatMediaPlayer.app" /Applications/
 ```
 
-## Kısayollar
+## Keyboard shortcuts
 
-| Kısayol | İşlev |
+| Shortcut | Action |
 | --- | --- |
-| `⌘ O` | Dosya aç |
-| `⌘ ⇧ O` | Oynatma listesine dosya ekle |
-| `Space` | Oynat / duraklat |
-| `⌘ ←` | Önceki parça |
-| `⌘ →` | Sonraki parça |
+| `⌘ O` | Open files |
+| `⌘ ⇧ O` | Add files to playlist |
+| `Space` | Play / pause |
+| `⌘ ←` | Previous track |
+| `⌘ →` | Next track |
 | `⌥ ⌘ P` | Picture-in-Picture |
 | `⌘ M` | Mini Player |
-| `⌘ S` | Video karesi yakala |
+| `⌘ S` | Capture video frame |
 
-## Proje yapısı
+## Project structure
 
 ```text
 Sources/BatMediaPlayer/
-├── Models/       # Medya veri modelleri
-├── Services/     # Metadata, playlist ve dosya servisleri
-├── ViewModels/   # Oynatma durumu ve iş mantığı
-└── Views/        # SwiftUI arayüz bileşenleri
+├── Models/       # Media data models
+├── Services/     # Metadata, playlist, and file services
+├── ViewModels/   # Playback state and application logic
+└── Views/        # SwiftUI interface components
 ```
 
-## Lisans
+## License
 
-Bu proje kişisel kullanım ve geliştirme amacıyla hazırlanmıştır.
+This project is provided for personal use and development.
