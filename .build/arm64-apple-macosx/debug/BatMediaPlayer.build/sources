@@ -1,0 +1,16 @@
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/MediaPlayerApp.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Models/MediaItem.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/Formatters.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/MetadataService.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/OpenPanelHelper.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/PlaylistService.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/RecentFilesService.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Theme.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/ViewModels/PlayerViewModel.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/ContentView.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/EqualizerView.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/MiniPlayerView.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/NowPlayingView.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/PlayerControlsView.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/SidebarView.swift
+/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/VideoPlayerView.swift

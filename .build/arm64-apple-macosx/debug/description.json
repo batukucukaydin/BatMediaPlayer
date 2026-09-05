@@ -1,0 +1,548 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.BatMediaPlayer-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/sources",
+      "importPath" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/MediaPlayerApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Models/MediaItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/Formatters.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/MetadataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/OpenPanelHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/PlaylistService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/RecentFilesService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/ViewModels/PlayerViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/EqualizerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/MiniPlayerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/NowPlayingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/PlayerControlsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/SidebarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/VideoPlayerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "BatMediaPlayer",
+      "moduleOutputPath" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/Modules/BatMediaPlayer.swiftmodule",
+      "objects" : [
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MediaPlayerApp.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MediaItem.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/Formatters.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MetadataService.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/OpenPanelHelper.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/PlaylistService.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/RecentFilesService.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/Theme.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/PlayerViewModel.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/ContentView.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/EqualizerView.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MiniPlayerView.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/NowPlayingView.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/PlayerControlsView.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/SidebarView.swift.o",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/VideoPlayerView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "BatMediaPlayer_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "videoandmusicplayer"
+      ],
+      "outputFileMapPath" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MediaPlayerApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MediaItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/Formatters.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MetadataService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/OpenPanelHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/PlaylistService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/RecentFilesService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/PlayerViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/EqualizerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MiniPlayerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/NowPlayingView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/PlayerControlsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/SidebarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/VideoPlayerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/Modules/BatMediaPlayer.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/MediaPlayerApp.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Models/MediaItem.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/Formatters.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/MetadataService.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/OpenPanelHelper.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/PlaylistService.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/RecentFilesService.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Theme.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/ViewModels/PlayerViewModel.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/ContentView.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/EqualizerView.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/MiniPlayerView.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/NowPlayingView.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/PlayerControlsView.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/SidebarView.swift",
+        "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/VideoPlayerView.swift"
+      ],
+      "tempsPath" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "BatMediaPlayer" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "BatMediaPlayer",
+      "-package-name",
+      "videoandmusicplayer",
+      "-c",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/MediaPlayerApp.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Models/MediaItem.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/Formatters.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/MetadataService.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/OpenPanelHelper.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/PlaylistService.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/RecentFilesService.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Theme.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/ViewModels/PlayerViewModel.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/ContentView.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/EqualizerView.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/MiniPlayerView.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/NowPlayingView.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/PlayerControlsView.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/SidebarView.swift",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/VideoPlayerView.swift",
+      "-I",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "BatMediaPlayer_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "videoandmusicplayer",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "BatMediaPlayer" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer-entitlement.plist"
+    },
+    "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/MediaPlayerApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Models/MediaItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/Formatters.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/MetadataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/OpenPanelHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/PlaylistService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Services/RecentFilesService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/ViewModels/PlayerViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/EqualizerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/MiniPlayerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/NowPlayingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/PlayerControlsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/SidebarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/Sources/BatMediaPlayer/Views/VideoPlayerView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/sources"
+    },
+    "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/EqualizerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/Formatters.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MediaItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MediaPlayerApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MetadataService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/MiniPlayerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/NowPlayingView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/OpenPanelHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/PlayerControlsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/PlayerViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/PlaylistService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/RecentFilesService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/SidebarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.build/VideoPlayerView.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/BatMediaPlayer.product/Objects.LinkFileList"
+    },
+    "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/batuhankucukaydin/Desktop/Projects/VideoAndMusicPlayer/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
